@@ -1,0 +1,27 @@
+div{
+    padding:16px 24px;
+    width:50vw;
+    margin:auto;
+    background-color: chartreuse;
+}
+/* Background colour changes when we squeeze the window size of the browser  */
+
+h1{
+    font-size: 24px;
+}
+button{
+    background-color: blue;
+    padding:8px 16px;
+    border-radius: 20px;
+}
+@media(width <= 768px)
+{
+    div{
+        width:80vw;
+        background-color:aqua ;
+    }
+}
+@media(width <= 500px)
+*{
+    color:red;
+}

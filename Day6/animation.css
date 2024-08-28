@@ -1,0 +1,16 @@
+.ball{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: rgb(255, 98, 0);
+    animation:circulation;
+    animation-duration:4s ;
+}
+@keyframes circulation{
+    from{
+        transform: translate(0px, 0px);
+    }
+    to{
+        transform: translate(200px, 200px);
+    }
+}
