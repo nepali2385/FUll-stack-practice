@@ -1,0 +1,30 @@
+
+
+/* ------------descendant selector -------*/
+/* div p{
+    color:brown;
+} */
+/* ---------child selector-------- */
+/* div>p{
+    text-align: center;
+    background-color: aqua;
+    color:blue;
+
+} */
+/* section{
+color:brown;
+} */
+/*--------- Adjacent sibling selectors------- */
+div+p{
+    background-color: aquamarine;
+}
+p+div{
+    background-color: orange;
+}
+div+div{
+    background-color:chartreuse ;
+}
+/* -------general sibling selector----- */
+div~p{
+    background-color: blueviolet;
+}

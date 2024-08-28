@@ -1,0 +1,26 @@
+/* body>ul>li:first-child{
+    background-color: yellow;
+}
+/* for nth child generalizedformulea can
+ br used like (an+b) */
+p:nth-child(2){
+    background-color: blue;
+}
+/* p:nth-child(3){
+    background-color: brown;
+} this dsnt work bcz ths is nt 3rd child*/
+li:nth-child(3){
+    background-color: brown;
+} 
+p:first-of-type(1){
+    background-color: aquamarine;
+}
+div{
+    border: 1vh solid;
+}
+div li:last-of-type{
+    background-color: blueviolet;
+}
+div li:nth-last-child(2){
+    background-color: rgb(43, 226, 52); 
+} 

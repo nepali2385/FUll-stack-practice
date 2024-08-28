@@ -1,0 +1,12 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box ;
+
+}
+.area{
+    display:grid;
+    grid-template-rows: ;
+    grid-auto-columns: 100px 200px 100px;
+    display:grid;
+}

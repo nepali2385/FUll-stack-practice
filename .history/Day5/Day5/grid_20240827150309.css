@@ -1,0 +1,16 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+
+}
+.area{
+    display:grid;
+    grid-template-columns: 100px 200px 100px;
+    grid-auto-rows: 50px;
+    background-color: aqua;
+}
+.card{
+    background-color: blanchedalmond;
+    border 1px solid black;
+}

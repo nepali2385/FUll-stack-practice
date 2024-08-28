@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: bord;
+}
+nav{
+    background-color: rgb(25, 24, 24);
+    height: 40px;
+    float: right;
+    display: inline-table;
+
+}
+#cat{
+    background-color: rgb(205, 187, 205);
+    height: 100px;
+}
+#carousel{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgba(184, 171, 188, 0.487);
+    padding: 50px;
+}
+#cardparent{
+    display: flex;
+    padding: 16px;
+    gap: 10px;
+
+}
+.cards{
+    border: 1px solid rgb(2, 0, 0);
+    height: 100px;
+    flex-grow: 1;
+    padding: 16px;
+    flex-basis: 20%;
+
+}

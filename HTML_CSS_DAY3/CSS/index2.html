@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model & Specificity</title>
+    <style>
+        /* body,p{
+            margin:0;
+        } */
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box; 
+            /* box-sizing:content-box; */
+        }
+        .b-m{
+margin:auto; 
+margin-top: 10px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+padding:24px;
+background-color: yellowgreen;
+border:2px solid black;
+width:400px;
+height:100px;
+text-align: center;
+/* border-width:2px;
+border-color: aquamarine;
+border-style:solid; */
+border:5px solid brown;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="b-m">Hello World</div>
+    <br/>
+    <br/>
+    <span class="b-m">Hello World</span>
+    <!-- <div>Hello World</div>
+    <p>Hello World</p>
+    <p>Hello World</p> -->
+</body>
+</html>

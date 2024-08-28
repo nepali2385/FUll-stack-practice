@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .article-title {
+            color:brown;
+            text-align:center;
+        } */
+        p{
+            font-size:12px;
+        }
+        .pr-ln{
+            background-color: aqua;
+        }
+        .wd{
+          color: rgb(255, 0, 153);  
+        }
+        /* #js-imp{
+            background-color: yellow;
+        } */
+        /* use compound selector without any space */
+        .pr-ln.wd{                   
+            background-color: blueviolet;
+            color:rgb(10, 10, 10);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Intro</h1>
+    <hr>
+    <article class="wd">
+        <h4 class="article-title" >HTML info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, vel.</p>
+    </article>
+    <hr>
+    <article class="wd">
+        <h4 class="article-title">CSS info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, vel.</p>
+    </article>
+    <hr>
+    <!-- if i dont want to use id??then try to create some uniqueness -->
+    <article class="pr-ln wd"id="js-imp">
+        <h4 class="article-title" >Javascript info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, vel.</p>
+    </article>
+    <article class="pr-ln">
+        <h4 class="article-title" >React info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, vel.</p>
+    </article>
+    <article class="pr-ln">
+        <h4 class="article-title" >C++</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, vel.</p>
+    </article>
+
+</body>
+</html>
