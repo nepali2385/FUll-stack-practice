@@ -1,0 +1,5 @@
+p::after{
+    content:'*I m Nepali';
+    color:brown;
+    background-color: aqua;
+}
